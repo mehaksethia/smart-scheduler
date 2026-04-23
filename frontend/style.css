@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI';
+    background: #0f172a;
+    color: white;
+}
+
+.app {
+    max-width: 420px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Cards */
+.card {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: none;
+}
+
+/* Slots */
+#slots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.slot {
+    padding: 8px 12px;
+    background: #334155;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.slot:hover {
+    background: #475569;
+}
+
+.slot.active {
+    background: #3b82f6;
+}
+
+/* Payment */
+.payment {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 14px;
+    background: #3b82f6;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2563eb;
+}
+
+/* Booking */
+.booking {
+    background: #1e293b;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
